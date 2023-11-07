@@ -1,0 +1,35 @@
+.heading{
+    background-color:aliceblue;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    height: 5%;
+    width: 20%;
+    position: absolute;
+    top: 20px;
+    right: 40%;
+
+    
+}
+body{
+    /* background-image:"https://t3.ftcdn.net/jpg/02/44/98/50/360_F_244985001_JkE2leAeXd0h91yOOXrq2Gfl7OKOg0qp.jpg"; */
+    background-size:cover;
+}
+.waiter{
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:40%;
+    
+}
+img{
+    height:100%;
+    max-width: 500px;
+    max-height: 350px;
+    width:100%;
+    object-fit: cover;
+}
+.recipes{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+}
