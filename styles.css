@@ -1,35 +1,87 @@
-.heading{
-    background-color:aliceblue;
+.heading {
+    background-color: aliceblue;
     text-align: center;
     background-color: rgba(255, 255, 255, 0);
     height: 5%;
     width: 20%;
-    position: absolute;
-    top: 20px;
-    right: 40%;
+    position: relative;
+    margin: auto;
 
-    
+
 }
-body{
+.box{
+    width: 400px;
+    height: auto;
+    background-color: beige;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    margin:auto;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+body {
     /* background-image:"https://t3.ftcdn.net/jpg/02/44/98/50/360_F_244985001_JkE2leAeXd0h91yOOXrq2Gfl7OKOg0qp.jpg"; */
-    background-size:cover;
+    background-size: cover;
 }
-.waiter{
+
+.waiter {
     background-color: rgba(255, 255, 255, 0);
     position: absolute;
-    top:40%;
-    
+    top: 40%;
+
 }
-img{
-    height:100%;
+
+img {
+    height: 100%;
     max-width: 500px;
     max-height: 350px;
-    width:100%;
+    width: 100%;
     object-fit: cover;
+    border-radius: 3px;
+    border: 3px;
+    border-color: red;
+    padding: 10px;
 }
-.recipes{
+figcaption{
+    text-align: center;
+}
+
+.img1 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 10%;
+    left: 10%;
+}
+
+.img2 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+.img3 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.img4 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    right:10%;
+}
+/* .recipes{
     display:flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    padding: 30px;
 
-}
+} */
