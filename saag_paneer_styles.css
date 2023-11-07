@@ -1,0 +1,87 @@
+.heading {
+    width: 600px;
+    height:80px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;  
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+}
+h1{
+    width: 600px;
+    height:80px;
+    
+}
+ul>header{
+    width: auto;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+  li {
+    text-align: left;
+    margin-bottom: 5px; /* Set the desired margin between each list item */
+  }
+body {
+    background-size: cover;
+}
+
+.recipes_board {
+    width: 600px;
+    height: auto;
+    background-color: beige;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    margin:auto;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+.Ingredients{
+    width: 550px;
+    height: auto;
+    background-color: rgb(231, 186, 150);
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    margin:auto;
+    text-align: center;
+    color: black;
+    font-size: 24px
+        
+}
+.space{
+    width: auto;
+    height: 50px;
+}
+.recipe{
+    width: 550px;
+    height: auto;
+    background-color: rgb(231, 186, 150);
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    margin:auto;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    line-height: 30px;
+   
+    
+}
+.step{
+    text-align: left;
+}
+h4{
+    width: 550px;
+    height: 10px;
+}
+b{
+    align-items: start;
+    text-align: left;
+}
+img{
+    height: 200px;
+    width: auto ;
+    padding: 20px;
+}
